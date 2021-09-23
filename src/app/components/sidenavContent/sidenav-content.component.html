@@ -1,8 +1,8 @@
 <div class="container-side" *ngFor="let item of sidenavContent">
   <span class="subheader-sidevar"> {{ item.subtitleItem }} </span>
 
-  <div class="content-sidevar-items" >
-    <span class="title-item-sidevar"> {{item.itemsTitle}} </span>
-    <span class="content-item-sidevar"> {{item.itemsContent}} </span>
+  <div class="content-sidevar-items" *ngFor="let itemData of item.itemContent">
+    <span class="title-item-sidevar" > {{ itemData.itemsTitle }} </span>
+    <span class="content-item-sidevar"> {{ itemData.itemsContent }} </span>
   </div>
 </div>
