@@ -10,10 +10,10 @@
 
   <mat-drawer #drawer class="sidenav-contentainer" mode="side" position="end">
     <!--HEADER-->
-    <app-sidevar-header></app-sidevar-header>
+    <app-sidevar-header [headerContent]='fakeHeader'></app-sidevar-header>
     
-    <!--SUBHEADER-->
-    <app-sidenav-content></app-sidenav-content>
+    <!--CONTENT-->
+    <app-sidenav-content [sidenavContent]='fakeContentData'></app-sidenav-content>
   </mat-drawer>
 
 
