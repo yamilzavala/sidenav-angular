@@ -1,0 +1,34 @@
+.container-side {
+  margin-top: 10%;
+}
+
+.subheader-sidevar {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.content-sidevar-items {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin: 3%;
+}
+
+.title-item-sidevar {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 120%;
+  color: #53565a;
+}
+
+.content-item-sidevar {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 120%;
+  color: #000000;
+}

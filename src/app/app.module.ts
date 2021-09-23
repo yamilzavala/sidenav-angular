@@ -8,14 +8,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { DisplayTwoComponent } from './components/displayTwo/displayTwo.component';
 import { FormsModule } from '@angular/forms';
-import { TabIconComponent } from './components/svgIcon/tab-icon/tab-icon.component';
+import { TabIconComponent } from './components/svgIcon/tab-icon.component';
+import { SidevarHeaderComponent } from './components/sidevarHeader/sidevar-header.component';
+import { SidenavContentComponent } from './components/sidenavContent/sidenav-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DisplayComponent,
     DisplayTwoComponent,
-    TabIconComponent
+    TabIconComponent,
+    SidevarHeaderComponent,
+    SidenavContentComponent
   ],
   imports: [
     BrowserModule,

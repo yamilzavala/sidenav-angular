@@ -1,0 +1,14 @@
+.content-sidevar {
+    background: #ffffff;
+    box-shadow: inset 0px -1px 0px #e6e6e6;
+    border-bottom: 1px solid #d7dbdb;
+    padding-bottom: 10%;
+  }
+
+  .header-sidevar {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+  }
